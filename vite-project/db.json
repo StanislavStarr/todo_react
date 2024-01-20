@@ -1,0 +1,52 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Hello World",
+      "author": "John Doe"
+    },
+    {
+      "id": "5c00",
+      "posts": [
+        {
+          "id": 1,
+          "title": "fsxfv",
+          "completed": false,
+          "status": "not yet"
+        }
+      ]
+    },
+    {
+      "id": "dc58",
+      "posts": [
+        {
+          "id": 1,
+          "title": "fsxfv",
+          "completed": false,
+          "status": "not yet"
+        }
+      ]
+    },
+    {
+      "id": "2747",
+      "posts": [
+        {
+          "id": 1,
+          "title": "sgfs",
+          "completed": false,
+          "status": "not yet"
+        }
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "Some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
