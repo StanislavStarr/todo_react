@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { createEntry } from '../lib/todoRest'
+import '../assets/module.CreateInput.css'
 
 interface CreateInputProps {
   onEntryCreated: () => void;
@@ -26,11 +27,13 @@ export function CreateInput({ onEntryCreated }: CreateInputProps) {
         <input
           type="text"
           className="form-control"
+          style={{width: '500px'}}
           placeholder="Название"
           onChange={handleInput}
           value={text}
           autoFocus
         />
+
         <button className="btn btn-outline-secondary" type="submit">
           Сохранить
         </button>
