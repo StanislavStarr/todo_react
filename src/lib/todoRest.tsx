@@ -17,6 +17,5 @@ export const updateEntry = async (id: number, data: Partial<Todo>): Promise<Todo
 
 export const deleteEntry = async (id: number): Promise<void> => {
   return await axios.delete(`${BASE_URL}/${id}`);
-
 };
 
